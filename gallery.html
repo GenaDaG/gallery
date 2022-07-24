@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Gallery</title>
+  </head>
+  <body>
+    <!-- <script>
+      function openlist(){
+        document.getElementById("open").style.display = "flex"
+        document.getElementById("flechas").style.position = "relative"
+        document.getElementById("open").style.position = "fixed"
+      }
+      function cerrarlist(){
+        document.getElementById("open").style.display = "none"
+        document.getElementById("flechas").style.position = "fixed"
+      }
+    </script> -->
+    <div class="container-main">
+      <header class="header">GALERIA</header>
+      <aside class="aside">   
+
+      <div class="aside-container" >
+        <div class="details" id="flechas">
+          <div class="direct" >
+            <a class="hrefer" href="javascript:openlist()">
+              <img src="assets/img/down.png" alt="down">
+            </a>            
+          </div>
+          
+          <div class="open__references" id="open">
+            <a href="#1" class="details_references" id="wall-1">Wallpapper 1</a>
+            <a href="#2" class="details_references">Wallpapper 2</a>
+            <a href="#3" class="details_references">Wallpapper 3</a>
+            <a href="#4" class="details_references" >Wallpapper 4</a>
+            <a href="#5" class="details_references">Wallpapper 5</a>
+            <a href="#6" class="details_references">Wallpapper 6</a>
+            <a href="#7" class="details_references">Wallpapper 7</a>
+            <a href="#8" class="details_references">Wallpapper 8</a>
+            <a href="#9" class="details_references">Wallpapper 9</a>
+            <a href="#10" class="details_references">Wallpapper 10</a>
+            <a href="#11" class="details_references">Wallpapper 11</a>
+            <a href="#12" class="details_references">Wallpapper 12</a>
+            <a href="#13" class="details_references">Wallpapper 13</a>
+            <a href="#14" class="details_references">Wallpapper 14</a>
+            <a href="#15" class="details_references">Wallpapper 15</a>
+            <a href="#16" class="details_references">Wallpapper 16</a>
+            <a href="#17" class="details_references">Wallpapper 17</a>
+            <a href="#18" class="details_references">Wallpapper 18</a>
+            <a href="#19" class="details_references">Wallpapper 19</a>
+            <a href="#20" class="details_references">Wallpapper 20</a>
+            <a href="#21" class="details_references">Wallpapper 21</a>
+            <a href="#22" class="details_references">Wallpapper 22</a>
+            <a href="#23" class="details_references">Wallpapper 23</a>
+            <a href="#24" class="details_references">Wallpapper 24</a>
+            <a href="#25" class="details_references">Wallpapper 25</a>
+            <a href="#26" class="details_references">Wallpapper 26</a>
+            <a href="#27" class="details_references">Wallpapper 27</a>
+            <a href="#28" class="details_references">Wallpapper 28</a>
+            <a href="#29" class="details_references">Wallpapper 29</a>
+            <a href="#30" class="details_references">Wallpapper 30</a>
+            <a class="hrefer" href="javascript:cerrarlist()">
+              <img src="assets/img/up.png" alt="up">
+            </a>
+          </div>
+        </div>        
+        <div class="gallery">
+            <div class="images_gallery">
+              <figure class="fig-i">
+                <img src="assets/img/wallpaper (1).jpg" alt="wall1" class="images wall_i" id="1"/>
+                <figcaption class="paragraph para-1 pa-1" id="p-1">Wallpapper 1</figcaption>
+              </figure>
+              <figure class="fig-i">
+                <img src="assets/img/wallpaper (2).jpg" alt="wall2" class="images wall_i" id="2"/>
+                <figcaption class="paragraph">Wallpapper 2</figcaption>
+              </figure>        
+              <figure class="fig-1">
+                <img src="assets/img/wallpaper (3).jpg" alt="wall3" class="images wall_i" id="3"/>
+                <figcaption class="paragraph">Wallpapper 3</figcaption>
+              </figure>
+              <figure>
+                <img src="assets/img/wallpaper (4).jpg" alt="wall4" class="images wall_i" id="4"/>
+                <figcaption class="paragraph" id="p-4">Wallpapper 4</figcaption>
+              </figure>
+              <figure>
+              <img src="assets/img/wallpaper (5).jpg" alt="wall5" class="images wall_5" id="5"/>
+              <figcaption class="paragraph">Wallpapper 5</figcaption>
+              </figure>
+              <figure>
+                <img src="assets/img/wallpaper (6).jpg" alt="wall6" class="images wall_6" id="6"/>
+                <figcaption class="paragraph">Wallpapper 6</figcaption>
+              </figure>
+              <figure>
+                <img src="assets/img/wallpaper (7).jpg" alt="wall7" class="images wall_7" id="7"/>
+                <figcaption class="paragraph">Wallpapper 7</figcaption>
+              </figure>
+              <figure>
+                <img src="assets/img/wallpaper (8).jpg" alt="wall8" class="images wall_8" id="8"/>
+                <figcaption class="paragraph">Wallpapper 8</figcaption>
+              </figure>
+              <figure>
+                <img src="assets/img/wallpaper (9).jpg" alt="wall9" class="images wall_9" id="9"/>
+                <figcaption class="paragraph">Wallpapper 9</figcaption>
+              </figure>
+              <figure>
+                <img src="assets/img/wallpaper (10).jpg" alt="wall10" class="images wall_10" id="10"/>
+                <figcaption class="paragraph">Wallpapper 10</figcaption>
+              </figure>
+              <figure>
+                <img src="assets/img/wallpaper (11).jpg" alt="wall11" class="images wall_11" id="11"/>
+                <figcaption class="paragraph">Wallpapper 11</figcaption>
+              </figure>
+              <figure>
+                <img src="assets/img/wallpaper (12).jpg" alt="wall12" class="images wall_12" id="12"/>
+                <figcaption class="paragraph">Wallpapper 12</figcaption>
+              </figure>
+              <figure>
+                <img src="assets/img/wallpaper (13).jpg" alt="wall13" class="images wall_13" id="13"/>
+                <figcaption class="paragraph">Wallpapper 13</figcaption>
+              </figure>
+              <figure>
+                <img src="assets/img/wallpaper (14).jpg" alt="wall14" class="images wall_14" id="14"/>
+                <figcaption class="paragraph">Wallpapper 14</figcaption>
+              </figure>
+              <figure>
+                <img src="assets/img/wallpaper (15).jpg" alt="wall15" class="images wall_15" id="15"/>
+                <figcaption class="paragraph">Wallpapper 15</figcaption>
+              </figure>
+              <figure>
+                <img src="assets/img/wallpaper (16).jpg" alt="wall16" class="images wall_16" id="16"/>
+                <figcaption class="paragraph">Wallpapper 16</figcaption>
+              </figure>
+              <figure>
+                <img src="assets/img/wallpaper (17).jpg" alt="wall17" class="images wall_17" id="17"/>
+                <figcaption class="paragraph">Wallpapper 17</figcaption>
+              </figure>
+              <figure>
+                <img src="assets/img/wallpaper (18).jpg" alt="wall18" class="images wall_18" id="18"/>
+                <figcaption class="paragraph">Wallpapper 18</figcaption>
+              </figure>
+              <figure>
+                <img src="assets/img/wallpaper (19).jpg" alt="wall19" class="images wall_19" id="19"/>
+                <figcaption class="paragraph">Wallpapper 19</figcaption>
+              </figure>
+              <figure>
+                <img src="assets/img/wallpaper (20).jpg" alt="wall20" class="images wall_20" id="20"/>
+                <figcaption class="paragraph">Wallpapper 20</figcaption>
+              </figure>
+              <figure>
+                <img src="assets/img/wallpaper (21).jpg" alt="wall21" class="images wall_21" id="21"/>
+                <figcaption class="paragraph">Wallpapper 21</figcaption>
+              </figure>
+              <figure>
+                <img src="assets/img/wallpaper (22).jpg" alt="wall22" class="images wall_22" id="22"/>
+                <figcaption class="paragraph">Wallpapper 22</figcaption>
+              </figure>
+              <figure>
+                <img src="assets/img/wallpaper (23).jpg" alt="wall23" class="images wall_23" id="23"/>
+                <figcaption class="paragraph">Wallpapper 23</figcaption>
+              </figure>
+              <figure>
+                <img src="assets/img/wallpaper (24).jpg" alt="wall24" class="images wall_24" id="24"/>
+                <figcaption class="paragraph">Wallpapper 24</figcaption>
+              </figure>
+              <figure>
+                <img src="assets/img/wallpaper (25).jpg" alt="wall25" class="images wall_25" id="25"/>
+                <figcaption class="paragraph">Wallpapper 25</figcaption>
+              </figure>
+              <figure>
+                <img src="assets/img/wallpaper (26).jpg" alt="wall26" class="images wall_26" id="26"/>
+                <figcaption class="paragraph">Wallpapper 26</figcaption>
+              </figure>
+              <figure>
+                <img src="assets/img/wallpaper (27).jpg" alt="wall27" class="images wall_27" id="27"/>
+                <figcaption class="paragraph">Wallpapper 27</figcaption>
+              </figure>
+              <figure>
+                <img src="assets/img/wallpaper (28).jpg" alt="wall28" class="images wall_28" id="28"/>
+                <figcaption class="paragraph">Wallpapper 28</figcaption>
+              </figure>
+              <figure>
+                <img src="assets/img/wallpaper (29).jpg" alt="wall29" class="images wall_29" id="29"/>
+                <figcaption class="paragraph">Wallpapper 29</figcaption>
+              </figure>
+              <figure>
+                <img src="assets/img/wallpaper (30).jpg" alt="wall30" class="images wall_30" id="30"/>
+                <figcaption class="paragraph">Wallpapper 30</figcaption>
+              </figure>
+            <!-- </div> -->
+            </div>
+        </div>
+      </div>
+      </aside>
+      <!-- <footer class="footer">Footer</footer> -->
+    </div>
+  </body>
+</html>
